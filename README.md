@@ -55,7 +55,9 @@ Sample Output:
 ```##### What folder do you want to scan for images? (default: src/) 
 ##### Scanning image folder src/...
 Unused image, safe to delete: image1.svg
-Unused image, safe to delete: image2.png```
+Unused image, safe to delete: image2.png
+```
+
 
 ### 3 Unused SCSS files
 This script takes all filenames in the `src/sass` folder and looks for them in the whole `src/` folder in the form of [filename].scss as well as `@import [filename]`. It outputs all scss files that aren't used anywhere and can probably be deleted.
@@ -68,7 +70,8 @@ Sample Output:
 ```##### What folder do you want to scan for unused scss files? (default: src/) 
 ##### scanning src/ for unused scss files...
 popup.scss not used
-rainbow.scss not used```
+rainbow.scss not used
+```
 
 
 ### 4 External file imports
